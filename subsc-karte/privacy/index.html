@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>プライバシーポリシー | サブスクカルテ</title>
+  <style>
+    :root {
+      --bg: #F2F2F7; --card: #FFFFFF; --text: #000000; --muted: #6C6C70; --tint: #13855E; --line: #C6C6C8;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #000000; --card: #1C1C1E; --text: #FFFFFF; --muted: #AEAEB2; --tint: #48D597; --line: #38383A; }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+      font-size: 16px; line-height: 1.8; -webkit-text-size-adjust: 100%;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+    h1 { font-size: 28px; line-height: 1.3; margin: 0 0 4px; }
+    .app { color: var(--tint); font-weight: 600; margin: 0 0 24px; }
+    section { background: var(--card); border-radius: 16px; padding: 20px; margin: 0 0 16px; }
+    h2 { font-size: 18px; margin: 0 0 8px; }
+    p, ul { margin: 0 0 8px; }
+    ul { padding-left: 1.4em; }
+    li { margin: 4px 0; }
+    .muted { color: var(--muted); font-size: 14px; }
+    a { color: var(--tint); }
+    table { width: 100%; border-collapse: collapse; font-size: 15px; }
+    th, td { text-align: left; padding: 8px 4px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    th { width: 34%; font-weight: 600; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>プライバシーポリシー</h1>
+  <p class="app">サブスクカルテ</p>
+
+  <section>
+    <p>
+      サブスクカルテ（以下「本アプリ」）は、利用者のプライバシーを大切にします。本アプリは、
+      <strong>アプリに登録した情報を開発者のサーバーに送ったり、開発者が集めたりすることはありません。</strong>
+      このページでは、本アプリがどの情報をどのように扱うかを説明します。
+    </p>
+  </section>
+
+  <section>
+    <h2>1. 端末の中だけに保存する情報</h2>
+    <p>次の情報は、利用者の端末（iPhone）の中だけに保存され、開発者を含む第三者に送られることはありません。</p>
+    <ul>
+      <li>登録したサブスクの情報（サービス名、プラン名、金額、通貨、支払い周期、次回請求日、無料トライアルの終了日、カテゴリ、メモなど）</li>
+      <li>月1回の振り返りの回答（それぞれのサブスクをどれくらい使ったか）</li>
+      <li>請求日をもとに本アプリが記録する支払いの履歴</li>
+      <li>通知のタイミングなどの設定</li>
+    </ul>
+    <p>
+      これらの情報は、本アプリを削除すると端末から消去されます。
+      なお、利用者が端末のiCloudバックアップを有効にしている場合、端末全体のバックアップの一部としてAppleのサービスに保存されることがあります。
+      この取り扱いには、Appleのプライバシーポリシーが適用されます。
+    </p>
+  </section>
+
+  <section>
+    <h2>2. 為替レートの取得</h2>
+    <p>本アプリが外部と通信するのは、この項目と「3. 有料プラン（Pro）の購入」の場合だけです。</p>
+    <table>
+      <tr><th>目的</th><td>外貨（米ドル・ユーロ）で登録したサブスクの金額を、円に換算して合計するため</td></tr>
+      <tr><th>通信先</th><td>為替レートの公開サービス「Frankfurter」（<a href="https://frankfurter.dev/" rel="noopener">frankfurter.dev</a>）</td></tr>
+      <tr><th>送信される情報</th><td>
+        <ul>
+          <li>知りたい通貨の種類（例：「USD」「JPY」）</li>
+          <li>通信の際に自動で送られる情報（IPアドレス、通信の日時、端末・OSの種類やアプリ名などの技術的な情報）</li>
+        </ul>
+        登録したサブスクの内容、振り返りの回答、支払いの記録などは送りません。
+      </td></tr>
+      <tr><th>利用目的</th><td>通信先が、為替レートを本アプリに返すため</td></tr>
+      <tr><th>頻度</th><td>最大で半日に1回。取得したレートは端末の中に保存します。</td></tr>
+    </table>
+    <p class="muted">
+      通信先での情報の取り扱いは、通信先の方針に従います。外貨のサブスクを登録しない場合でも、本アプリを開いたときにレートを取得することがあります。
+    </p>
+  </section>
+
+  <section>
+    <h2>3. 有料プラン（Pro）の購入</h2>
+    <p>
+      有料プラン「サブスクカルテ Pro」の購入と支払いは、AppleのApp Storeを通じて行われます。
+      クレジットカードなどの支払い情報はAppleが扱い、開発者が受け取ることはありません。
+    </p>
+    <p>購入の状態（Proを使えるかどうか）を確認するために、次のサービスを利用します。</p>
+    <table>
+      <tr><th>目的</th><td>Proを購入したかどうか、月額プランが有効かどうかを確認し、購入の復元をできるようにするため</td></tr>
+      <tr><th>通信先</th><td>RevenueCat, Inc.（アメリカ合衆国）が提供する「RevenueCat」（<a href="https://www.revenuecat.com/privacy" rel="noopener">プライバシーポリシー</a>）</td></tr>
+      <tr><th>送信される情報</th><td>
+        <ul>
+          <li>本アプリが自動で作る、ランダムな利用者ID（名前やメールアドレスとは結びつきません）</li>
+          <li>購入の記録（購入した商品、購入日、有効期限、無料期間の利用の有無など、Appleが発行する取引の情報）</li>
+          <li>通信の際に自動で送られる情報（IPアドレス、端末・OSの種類、アプリのバージョン、国や地域の設定など）</li>
+        </ul>
+        登録したサブスクの内容、振り返りの回答、支払いの記録などは送りません。
+      </td></tr>
+      <tr><th>利用目的</th><td>購入の確認と復元のため。広告や、ほかのアプリ・Webサイトをまたいだ追跡には使いません</td></tr>
+    </table>
+    <p class="muted">
+      RevenueCatはアメリカ合衆国の事業者で、情報はアメリカ合衆国などのサーバーで扱われます。
+      アメリカ合衆国には、日本の個人情報保護法と同じ水準の、個人情報を保護する包括的な連邦法はありません（州ごとの法律はあります）。
+      RevenueCatは、プライバシーポリシーにおいて、個人情報を保護するための措置をとることを定めています。
+    </p>
+  </section>
+
+  <section>
+    <h2>4. 通知</h2>
+    <p>
+      請求日や無料トライアルの終了日、月1回の振り返りの通知は、端末の中で予約する「ローカル通知」です。
+      通知の内容がサーバーを経由することはありません。通知は、端末の「設定」アプリからいつでもオフにできます。
+    </p>
+  </section>
+
+  <section>
+    <h2>5. Appleから提供される情報</h2>
+    <p>
+      利用者が端末の設定で「Appのデベロッパと共有」をオンにしている場合、Appleを通じて、本アプリのクラッシュ情報（異常終了の記録）や利用統計が開発者に提供されることがあります。
+      これらは個人を特定できない形で提供され、本アプリの不具合の修正と改善のためだけに使います。共有するかどうかは、端末の「設定」→「プライバシーとセキュリティ」→「解析と改善」で変更できます。
+    </p>
+  </section>
+
+  <section>
+    <h2>6. 本アプリが行わないこと</h2>
+    <ul>
+      <li>アカウントの登録やログインを求めること</li>
+      <li>広告の表示</li>
+      <li>独自の利用状況の分析ツールや、トラッキング（ほかのアプリやWebサイトをまたいだ追跡）の使用</li>
+      <li>位置情報、連絡先、写真などへのアクセス</li>
+      <li>利用者の情報の販売や、第三者への提供</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. データの保存期間と削除</h2>
+    <ul>
+      <li>端末の中の情報は、利用者が削除するまで保存されます。サブスクごとの削除は本アプリの中で、すべての削除は本アプリを端末から削除することでできます。</li>
+      <li>開発者は、アプリに登録された情報を持っていないため、開発者側で削除する情報はありません。購入の記録は、RevenueCatの定める期間、RevenueCatに保存されます。</li>
+      <li>お問い合わせでいただいた情報は、対応が終わったあと、必要な期間を過ぎたら削除します。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. お問い合わせでいただく情報</h2>
+    <p>
+      開発者にお問い合わせをいただいた場合、メールアドレス、お名前、お問い合わせの内容など、送っていただいた情報を受け取ります。
+      これらはお問い合わせへの回答と、本アプリの改善のためだけに使い、法令に基づく場合を除いて、第三者に提供することはありません。
+    </p>
+  </section>
+
+  <section>
+    <h2>9. お子さまの利用</h2>
+    <p>本アプリは、お子さまから意図的に個人情報を集めることはありません。</p>
+  </section>
+
+  <section>
+    <h2>10. このポリシーの変更</h2>
+    <p>
+      本アプリに新しい機能（たとえば、画像からの読み取りなど）を追加して、情報の扱いが変わる場合は、
+      その機能を提供する前にこのページを更新し、本アプリ内でもお知らせします。
+      法令の変更などに合わせて改定することもあります。改定後の内容は、このページに掲載した時点から適用されます。
+    </p>
+  </section>
+
+  <section>
+    <h2>11. お問い合わせ</h2>
+    <p>本ポリシーや本アプリに関するお問い合わせは、次の連絡先までお願いします。</p>
+    <table>
+      <tr><th>運営者</th><td>Small Fix Lab</td></tr>
+      <tr><th>連絡先</th><td><a href="mailto:smallfixlab.dev@gmail.com">smallfixlab.dev@gmail.com</a></td></tr>
+    </table>
+  </section>
+
+  <p class="muted">制定日：2026年10月5日<br>最終改定日：2026年10月5日</p>
+</main>
+</body>
+</html>

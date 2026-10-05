@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Small Fix Lab</title>
+  <style>
+    :root { --bg: #F2F2F7; --card: #FFFFFF; --text: #000000; --muted: #6C6C70; --tint: #13855E; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #000000; --card: #1C1C1E; --text: #FFFFFF; --muted: #AEAEB2; --tint: #48D597; }
+    }
+    body {
+      margin: 0; background: var(--bg); color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+      font-size: 16px; line-height: 1.8;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+    h1 { font-size: 28px; margin: 0 0 4px; }
+    p { margin: 0 0 8px; }
+    .muted { color: var(--muted); }
+    section { background: var(--card); border-radius: 16px; padding: 20px; margin: 24px 0 16px; }
+    h2 { font-size: 18px; margin: 0 0 8px; }
+    a { color: var(--tint); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Small Fix Lab</h1>
+  <p class="muted">毎日の小さな困りごとを直すアプリを作っています。</p>
+
+  <section>
+    <h2>サブスクカルテ</h2>
+    <p>サブスクの支払いを一覧で管理して、請求日や無料トライアルの終了をお知らせするiPhoneアプリです。</p>
+    <p><a href="subsc-karte/privacy/">プライバシーポリシー</a>　<a href="subsc-karte/terms/">利用規約</a></p>
+  </section>
+
+  <p class="muted">お問い合わせ：<a href="mailto:smallfixlab.dev@gmail.com">smallfixlab.dev@gmail.com</a></p>
+</main>
+</body>
+</html>
